@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Processor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Video Processor</h1>
+      <input type="text" id="video-url" placeholder="Enter video URL" />
+      <button id="generate-btn">Generate Thumbnail and Metadata</button>
+      <canvas id="thumbnail-canvas" width="320" height="180"></canvas>
+      <div id="metadata-display">
+        <h2>Video Metadata</h2>
+        <ul id="metadata-list">
+          <!-- Metadata will be populated here -->
+        </ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
