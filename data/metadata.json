@@ -1,0 +1,18 @@
+[
+  {
+    "videoUrl": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4",
+    "duration": 13.504,
+    "resolution": "1280x720",
+    "codec": "h264",
+    "bitrate": 1248721,
+    "frameRate": "25/1"
+  },
+  {
+    "videoUrl": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_5mb.mp4",
+    "duration": 29.568,
+    "resolution": "1280x720",
+    "codec": "h264",
+    "bitrate": 1421504,
+    "frameRate": "25/1"
+  }
+]

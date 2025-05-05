@@ -48,7 +48,7 @@ const extractKeyFrames = (videoPath) => {
       .output(path.join(framesDir, "frame-%03d.png"))
       .outputOptions([
         "-vf",
-        "select='eq(pict_type\\,I)',scale=320:-1",
+        "select='eq(pict_type\\,I)',scale=320:-1", //lebar frame 320px, tinggi otomatis
         "-vsync",
         "vfr",
         "-q:v",
